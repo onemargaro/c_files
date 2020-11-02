@@ -89,6 +89,7 @@ int Contador(){
       }
     }
 
+    fclose(longitud);
     fclose(pf);
     return 0;
 }
